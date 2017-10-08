@@ -79,7 +79,7 @@
         {{ if .Params.chapter }}
           <div id="chapter">
         {{ end }}
-        <div id="body-inner">
+        <div id="body-inner" class="printwide">
           {{if and (not .IsHome) (not .Params.chapter) }}
             <h1>{{.Title}}</h1>
           {{end}}
